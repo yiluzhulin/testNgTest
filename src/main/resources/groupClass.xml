@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--GroupClass的xml文件-->
+<suite name="GroupSuiteName">
+    <!--全部执行-->
+    <test name="runAll">
+        <classes>
+            <class name="groups.GroupClass1" />
+            <class name="groups.GroupClass2" />
+            <class name="groups.GroupClass3" />
+        </classes>
+    </test>
+
+    <!--执行stu分组的类-->
+    <test name="runStu">
+        <groups>
+            <run>
+                <include name="cStu" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="groups.GroupClass1" />
+            <class name="groups.GroupClass2" />
+            <class name="groups.GroupClass3" />
+        </classes>
+    </test>
+</suite>
