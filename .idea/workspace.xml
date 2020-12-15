@@ -112,7 +112,14 @@
       <recent name="F:\workspace\testNgTest\TagBase" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Timeout">
+  <component name="RunManager" selected="Application.test">
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <module name="Reports" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DependONMethod" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TagBase" />
       <option name="PACKAGE_NAME" value="" />
@@ -144,23 +151,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadTag" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TagBase" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="multiThread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="multiThread" />
-      <option name="MAIN_CLASS_NAME" value="multiThread.ThreadTag" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Timeout" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TagBase" />
       <option name="PACKAGE_NAME" value="" />
@@ -174,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.test" />
         <item itemvalue="TestNG.Timeout" />
         <item itemvalue="TestNG.DependONMethod" />
         <item itemvalue="TestNG.F:/workspace/testNgTest/TagBase/src/main/resources/multiThread.xml" />
         <item itemvalue="TestNG.F:/workspace/testNgTest/TagBase/src/main/resources/parameters.xml" />
-        <item itemvalue="TestNG.ThreadTag" />
       </list>
     </recent_temporary>
   </component>
