@@ -1,6 +1,6 @@
 package suite;
 
-import org.testng.annotations.*;
+import org.testng.annotations.Test;
 
 /**
  * 测试套件中，实际执行的方法集合

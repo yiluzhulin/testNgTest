@@ -6,8 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="testNgTest" />
+        <module name="TagBase" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="tag01" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>

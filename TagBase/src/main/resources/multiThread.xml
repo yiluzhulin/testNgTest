@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+	methods: 所有用例都可以在不同的线程去执行
+	tests：不同test tag下的用例可以在不同的线程执行，相同test tag下的用例只能在同一个线程中执行
+	classes：不同class tag下的用例可以在不同的线程执行，相同class tag下的用例只能在同一个线程中执行。
+-->
+<suite name="multiThread">
+    <test name="demo1" parallel="tests" thread-count="3" >
+        <classes name="class1">
+            <class name="multiThread.ThreadXml"/>
+        </classes>
+    </test>
+</suite>

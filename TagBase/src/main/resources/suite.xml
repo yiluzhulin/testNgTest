@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--Suite的xml文件-->
+<suite name="suiteName">
+    <test name="testName1">
+        <classes>
+            <class name="suite.SuiteConfig" />
+            <class name="suite.SuiteTest1" />
+        </classes>
+    </test>
+
+    <test name="testName2">
+        <classes>
+            <class name="suite.SuiteConfig" />
+            <class name="suite.SuiteTest2" />
+        </classes>
+    </test>
+</suite>

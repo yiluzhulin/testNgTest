@@ -16,14 +16,4 @@ public class DependONMethod {
         System.out.println("Test2-----");
     }
 
-    @Test
-    public void test3() {
-        System.out.println("test3------");
-        throw new RuntimeException();
-    }
-
-    @Test(dependsOnMethods = "test3")
-    public void test4() {
-        System.out.println("test4----");
-    }
 }

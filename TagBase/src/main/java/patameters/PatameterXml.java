@@ -1,6 +1,7 @@
 package patameters;
 
-import org.testng.annotations.*;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
 
 /**
  * 参数化测试-xml

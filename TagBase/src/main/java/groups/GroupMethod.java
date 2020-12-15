@@ -1,6 +1,8 @@
 package groups;
 
-import org.testng.annotations.*;
+import org.testng.annotations.AfterGroups;
+import org.testng.annotations.BeforeGroups;
+import org.testng.annotations.Test;
 
 /**
  * 方法分组
