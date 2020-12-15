@@ -9,8 +9,8 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>TagBase</module>
-        <module>Reports</module>
+        <module>TestNgTag</module>
+        <module>ExtentReports</module>
     </modules>
     <dependencies>
         <dependency>
