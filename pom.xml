@@ -11,6 +11,7 @@
     <modules>
         <module>TestNgTag</module>
         <module>ExtentReports</module>
+        <module>MockInterface</module>
     </modules>
     <dependencies>
         <dependency>

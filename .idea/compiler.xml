@@ -11,6 +11,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="MockMoco" target="1.5" />
       <module name="tag01" target="1.5" />
     </bytecodeTargetLevel>
   </component>
