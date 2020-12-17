@@ -1,0 +1,33 @@
+[
+  {
+    "description": "这是不带参数post请求的描述",
+    "request": {
+      "uri": "/postWithoutParDemo",
+      "method": "post"
+    },
+    "response": {
+      "text": "这是不带参数post请求的内容",
+      "headers": {
+        "Content-Type": "text/html;charset=gbk"
+      }
+    }
+  },
+
+  {
+    "description": "这是带参数post请求的描述-forms",
+    "request": {
+      "uri": "/postWithParaDemo",
+      "method": "post",
+      "forms": {
+        "name": "myName",
+        "age": "12"
+      }
+    },
+    "response": {
+      "text": "这是带参数post请求的内容-forms",
+      "headers": {
+        "Content-Type": "text/html;charset=gbk"
+      }
+    }
+  }
+]

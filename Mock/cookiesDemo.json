@@ -1,0 +1,40 @@
+[
+  {
+    "description": "这是带cookies的get方法描述",
+    "request": {
+      "uri": "/getWithCookiessDemo",
+      "method": "get",
+      "cookies": {
+        "login": "true"
+      }
+    },
+    "response": {
+      "text": "这是带cookies的get方法的内容",
+      "headers": {
+        "Content-Type": "text/html;charset=gbk"
+      }
+    }
+  },
+
+  {
+    "description": "这是带cookies的post方法描述",
+    "request": {
+      "uri": "/postWithCookiessDemo",
+      "method": "post",
+      "cookies": {
+        "login": "true"
+      },
+      "json": {
+        "name": "daisy",
+        "age": "12"
+      }
+    },
+    "response": {
+      "status": 200,
+      "json": {
+        "result": "success",
+        "status": "200"
+      }
+    }
+  }
+]
