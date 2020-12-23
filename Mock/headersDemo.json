@@ -1,0 +1,27 @@
+[
+  {
+    "description":"request中带有header信息",
+    "request": {
+      "uri": "/post/request/headers",
+      "method": "post",
+      "headers": {
+        "Content-Type": "application/html"
+      },
+      "json": {
+        "id": "123",
+        "name": "daisy"
+      }
+    },
+    "response": {
+      "status": 200,
+      "json": {
+        "result": "success",
+        "status": "1",
+        "info": {
+          "name": "daisy",
+          "age": "13"
+        }
+      }
+    }
+  }
+]
