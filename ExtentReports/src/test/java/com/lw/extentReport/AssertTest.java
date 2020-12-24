@@ -1,4 +1,4 @@
-package com.extentReport.lw;
+package com.lw.extentReport;
 
 import org.testng.Assert;
 import org.testng.Reporter;

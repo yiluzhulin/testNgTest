@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-
-<suite name="extentReport">
-    <test name="testMethods">
+<suite name="suite">
+    <test name="test">
         <classes>
-            <class name="AssertTest">
+            <class name="com.extentReport.lw.AssertTest">
                 <methods>
                     <include name="test1" />
                     <include name="test2" />
@@ -14,8 +12,8 @@
             </class>
         </classes>
     </test>
-    
+
     <listeners>
-        <listener class-name="com.lw.extentReport.ExtentRepoertTestNGListener" />
+        <listener class-name="com.extentReport.lw.ExtentRepoertTestNGListener" />
     </listeners>
 </suite>
