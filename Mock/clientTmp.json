@@ -1,0 +1,36 @@
+[
+  {
+    "description": "description-获取cookides信息",
+    "request": {
+      "uri": "/getCookies",
+      "method": "get"
+    },
+    "response": {
+      "text": "response-这是获取的cookies信息",
+      "cookies": {
+        "login": "true"
+      },
+      "headers": {
+        "Content-Type": "text/html;charset=gbk"
+      }
+    }
+  },
+  {
+    "description": "description-带cookies的get方法",
+    "request": {
+      "uri": "/getWtihCookies",
+      "method": "get",
+      "cookies": {
+        "login": "true",
+        "name": "daisy"
+      }
+
+    },
+    "response": {
+      "text": "response-带cookies的get方法",
+      "headers": {
+        "Content-Type": "text/html;charset=gbk"
+      }
+    }
+  }
+]
