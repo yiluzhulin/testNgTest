@@ -4,7 +4,7 @@
 <suite name="extentReport">
     <test name="testMethods">
         <classes>
-            <class name="com.extentReport.lw.AssertTest">
+            <class name="AssertTest">
                 <methods>
                     <include name="test1" />
                     <include name="test2" />
@@ -16,6 +16,6 @@
     </test>
     
     <listeners>
-        <listener class-name="com.extentReport.lw.ExtentRepoertTestNGListener" />
+        <listener class-name="com.lw.extentReport.ExtentRepoertTestNGListener" />
     </listeners>
 </suite>

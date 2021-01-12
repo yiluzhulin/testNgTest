@@ -20,12 +20,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4750beb2-5dae-49ff-a50f-38385da7e622" name="Default Changelist" comment="更新">
-      <change afterPath="$PROJECT_DIR$/HttpClientTest/src/main/java/com/lw/httpclienttest/cookies/GetCookiesDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HttpClientTest/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mock/clientTmp.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestNgTag/src/main/java/patameters/ParaTmp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestNgTag/src/main/resources/para.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HttpClientTest/target/classes/com/lw/httpclienttest/GetDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/HttpClientTest/target/classes/com/lw/httpclienttest/GetDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReports/target/classes/com/extentReport/lw/AssertTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReports/target/classes/com/extentReport/lw/ExtentRepoertTestNGListener$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReports/target/classes/com/extentReport/lw/ExtentRepoertTestNGListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReports/target/classes/demo.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReports/target/classes/extentReport.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ExtentReports/target/classes/extentReport.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReports/target/test-classes/com/extentReport/lw/AssertTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReports/test-output/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HttpClientTest/src/main/java/com/lw/httpclienttest/cookies/GetCookiesDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/HttpClientTest/src/main/java/com/lw/httpclienttest/cookies/GetCookiesDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HttpClientTest/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/HttpClientTest/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HttpClientTest/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/HttpClientTest/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HttpClientTest/target/classes/com/lw/httpclienttest/cookies/GetCookiesDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/HttpClientTest/target/classes/com/lw/httpclienttest/cookies/GetCookiesDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mock/clientTmp.json" beforeDir="false" afterPath="$PROJECT_DIR$/Mock/clientTmp.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNgTag/target/classes/suite/depend.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +86,17 @@
       <recent name="F:\workspace\testNgTest\TagBase" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.GetCookiesDemo.test">
+  <component name="RunManager" selected="TestNG.GetCookiesTmp.getWithCookies">
+    <configuration name="F:/workspace/testNgTest/TestNgTag/src/main/resources/para.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNgTag" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/TestNgTag/src/main/resources/para.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GetCookiesDemo" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HttpClientTest" />
       <extension name="coverage">
@@ -94,7 +114,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetCookiesDemo.test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="GetCookiesDemo.setCookieTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HttpClientTest" />
       <extension name="coverage">
         <pattern>
@@ -104,7 +124,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.lw.httpclienttest.cookies" />
       <option name="MAIN_CLASS_NAME" value="com.lw.httpclienttest.cookies.GetCookiesDemo" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="METHOD_NAME" value="setCookieTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -112,53 +132,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetDemo.getTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="GetCookiesTmp" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HttpClientTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lw.httpclienttest.*" />
+          <option name="PATTERN" value="com.lw.httpclienttest.cookies.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.lw.httpclienttest" />
-      <option name="MAIN_CLASS_NAME" value="com.lw.httpclienttest.GetDemo" />
-      <option name="METHOD_NAME" value="getTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GetTmp.test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="HttpClientTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lw.httpclienttest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.lw.httpclienttest" />
-      <option name="MAIN_CLASS_NAME" value="com.lw.httpclienttest.GetTmp" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Tmp" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="HttpClientTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lw.httpclienttest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.lw.httpclienttest" />
-      <option name="MAIN_CLASS_NAME" value="com.lw.httpclienttest.Tmp" />
+      <option name="PACKAGE_NAME" value="com.lw.httpclienttest.cookies" />
+      <option name="MAIN_CLASS_NAME" value="com.lw.httpclienttest.cookies.GetCookiesTmp" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetCookiesTmp.getWithCookies" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HttpClientTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lw.httpclienttest.cookies.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lw.httpclienttest.cookies" />
+      <option name="MAIN_CLASS_NAME" value="com.lw.httpclienttest.cookies.GetCookiesTmp" />
+      <option name="METHOD_NAME" value="getWithCookies" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -167,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.GetCookiesDemo.test" />
+        <item itemvalue="TestNG.GetCookiesTmp.getWithCookies" />
+        <item itemvalue="TestNG.GetCookiesTmp" />
+        <item itemvalue="TestNG.GetCookiesDemo.setCookieTest" />
         <item itemvalue="TestNG.GetCookiesDemo" />
-        <item itemvalue="TestNG.Tmp" />
-        <item itemvalue="TestNG.GetTmp.test" />
-        <item itemvalue="TestNG.GetDemo.getTest" />
+        <item itemvalue="TestNG.F:/workspace/testNgTest/TestNgTag/src/main/resources/para.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -205,7 +207,8 @@
       <workItem from="1609233301184" duration="1012000" />
       <workItem from="1609381576854" duration="22000" />
       <workItem from="1610072282410" duration="3939000" />
-      <workItem from="1610358710057" duration="5865000" />
+      <workItem from="1610358710057" duration="5959000" />
+      <workItem from="1610431877734" duration="14576000" />
     </task>
     <task id="LOCAL-00001" summary="更新">
       <created>1607518329754</created>
@@ -291,7 +294,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608809198171</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="更新">
+      <created>1610367746607</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1610367746607</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -331,10 +341,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="459" y="231" width="447" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1608097653403" />
-    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608117929683">
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1610444118917">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1608117929683" />
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1610444118917" />
     <state x="363" y="4" key="#com.intellij.unscramble.UnscrambleDialog" timestamp="1608260679880">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -351,22 +361,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="498" y="61" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1607515815023" />
-    <state width="1323" height="232" key="GridCell.Tab.0.bottom" timestamp="1610367680558">
+    <state width="1323" height="379" key="GridCell.Tab.0.bottom" timestamp="1610453595229">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="232" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1610367680558" />
-    <state width="1323" height="232" key="GridCell.Tab.0.center" timestamp="1610367680558">
+    <state width="1323" height="379" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1610453595229" />
+    <state width="1323" height="379" key="GridCell.Tab.0.center" timestamp="1610453595228">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="232" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1610367680557" />
-    <state width="1323" height="232" key="GridCell.Tab.0.left" timestamp="1610367680557">
+    <state width="1323" height="379" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1610453595228" />
+    <state width="1323" height="379" key="GridCell.Tab.0.left" timestamp="1610453595228">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="232" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1610367680557" />
-    <state width="1323" height="232" key="GridCell.Tab.0.right" timestamp="1610367680558">
+    <state width="1323" height="379" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1610453595228" />
+    <state width="1323" height="379" key="GridCell.Tab.0.right" timestamp="1610453595228">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="232" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1610367680558" />
+    <state width="1323" height="379" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1610453595228" />
     <state x="184" y="0" key="SettingsEditor" timestamp="1608033157043">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

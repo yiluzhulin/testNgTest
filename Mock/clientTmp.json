@@ -16,21 +16,21 @@
     }
   },
   {
-    "description": "description-带cookies的get方法",
+    "description": "描述：带cookies的get请求",
     "request": {
-      "uri": "/getWtihCookies",
+      "uri": "/getWithCookies",
       "method": "get",
       "cookies": {
-        "login": "true",
-        "name": "daisy"
+        "login": "true"
       }
-
     },
     "response": {
-      "text": "response-带cookies的get方法",
+      "text": "返回-带cookies的get请求",
       "headers": {
         "Content-Type": "text/html;charset=gbk"
       }
     }
   }
+
+
 ]
