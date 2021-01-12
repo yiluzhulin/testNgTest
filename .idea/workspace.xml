@@ -20,22 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4750beb2-5dae-49ff-a50f-38385da7e622" name="Default Changelist" comment="更新">
-      <change afterPath="$PROJECT_DIR$/TestNgTag/src/main/java/patameters/ParaTmp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestNgTag/src/main/resources/para.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExtentReports/target/classes/com/extentReport/lw/AssertTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExtentReports/target/classes/com/extentReport/lw/ExtentRepoertTestNGListener$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExtentReports/target/classes/com/extentReport/lw/ExtentRepoertTestNGListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExtentReports/target/classes/demo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExtentReports/target/classes/extentReport.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ExtentReports/target/classes/extentReport.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExtentReports/target/test-classes/com/extentReport/lw/AssertTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExtentReports/test-output/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/HttpClientTest/src/main/java/com/lw/httpclienttest/cookies/GetCookiesDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/HttpClientTest/src/main/java/com/lw/httpclienttest/cookies/GetCookiesDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HttpClientTest/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/HttpClientTest/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HttpClientTest/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/HttpClientTest/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HttpClientTest/target/classes/com/lw/httpclienttest/cookies/GetCookiesDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/HttpClientTest/target/classes/com/lw/httpclienttest/cookies/GetCookiesDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mock/clientTmp.json" beforeDir="false" afterPath="$PROJECT_DIR$/Mock/clientTmp.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNgTag/target/classes/suite/depend.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -208,7 +194,7 @@
       <workItem from="1609381576854" duration="22000" />
       <workItem from="1610072282410" duration="3939000" />
       <workItem from="1610358710057" duration="5959000" />
-      <workItem from="1610431877734" duration="14576000" />
+      <workItem from="1610431877734" duration="15166000" />
     </task>
     <task id="LOCAL-00001" summary="更新">
       <created>1607518329754</created>
@@ -301,7 +287,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610367746607</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="更新">
+      <created>1610453643262</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1610453643262</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -385,9 +378,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="115" y="17" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1608808174638" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1608705798336">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1610453718866">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1608705798336" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1610453718866" />
   </component>
 </project>

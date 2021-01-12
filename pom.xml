@@ -12,6 +12,7 @@
         <module>TestNgTag</module>
         <module>ExtentReports</module>
         <module>MockInterface</module>
+        <module>HttpClientTest</module>
     </modules>
     <dependencies>
         <dependency>
