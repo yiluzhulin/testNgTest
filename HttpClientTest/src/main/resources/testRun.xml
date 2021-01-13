@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="clientSuite">
+    <test name="clientTest">
+        <classes>
+            <class name="com.lw.httpclienttest.cookies.GetCookiesDemo">
+                <methods>
+                    <include name="getCookies" />
+                    <include name="getWithCookies" />
+                    <include name="postWithCookies" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <listeners>
+        <listener class-name="com.lw.extentReport.ExtentRepoertTestNGListener" />
+    </listeners>
+</suite>
