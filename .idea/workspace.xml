@@ -20,9 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4750beb2-5dae-49ff-a50f-38385da7e622" name="Default Changelist" comment="更新">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HttpClientTest/src/main/java/com/lw/httpclienttest/cookies/GetCookiesDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/HttpClientTest/src/main/java/com/lw/httpclienttest/cookies/GetCookiesDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HttpClientTest/src/main/java/com/lw/apiTest/testCases/IotApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/HttpClientTest/src/main/java/com/lw/apiTest/testCases/IotApiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HttpClientTest/src/main/resources/apiRun.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HttpClientTest/src/main/resources/apiRun.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HttpClientTest/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/HttpClientTest/test-output/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mock/clientTmp.json" beforeDir="false" afterPath="$PROJECT_DIR$/Mock/clientTmp.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNgTag/src/main/resources/para.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +59,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Mock" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/HttpClientTest/src/main/resources" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -64,18 +68,23 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\workspace\testNgTest\HttpClientTest\src\main\resources" />
+      <recent name="F:\workspace\testNgTest\HttpClientTest\src\main\java\com\lw\apiTest\common" />
       <recent name="F:\workspace\testNgTest\Mock" />
       <recent name="F:\workspace\testNgTest\TagBase\src\main\resources" />
       <recent name="F:\workspace\testNgTest\TagBase\src\main\java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lw.extentReport" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\workspace\testNgTest\TagBase" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.GetCookiesTmp.getWithCookies">
-    <configuration name="F:/workspace/testNgTest/TestNgTag/src/main/resources/para.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNgTag" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/TestNgTag/src/main/resources/para.xml" />
+  <component name="RunManager" selected="TestNG.F:/workspace/testNgTest/HttpClientTest/src/main/resources/apiRun.xml">
+    <configuration name="F:/workspace/testNgTest/HttpClientTest/src/main/resources/apiRun.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HttpClientTest" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/HttpClientTest/src/main/resources/apiRun.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -83,24 +92,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetCookiesDemo" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="F:/workspace/testNgTest/HttpClientTest/src/main/resources/testRun.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HttpClientTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lw.httpclienttest.cookies.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.lw.httpclienttest.cookies" />
-      <option name="MAIN_CLASS_NAME" value="com.lw.httpclienttest.cookies.GetCookiesDemo" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/HttpClientTest/src/main/resources/testRun.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetCookiesDemo.setCookieTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="F:/workspace/testNgTest/HttpClientTest/src/main/resources/tmp.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HttpClientTest" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/HttpClientTest/src/main/resources/tmp.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetCookiesDemo.postWithCookies" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HttpClientTest" />
       <extension name="coverage">
         <pattern>
@@ -110,7 +122,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.lw.httpclienttest.cookies" />
       <option name="MAIN_CLASS_NAME" value="com.lw.httpclienttest.cookies.GetCookiesDemo" />
-      <option name="METHOD_NAME" value="setCookieTest" />
+      <option name="METHOD_NAME" value="postWithCookies" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -118,34 +130,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetCookiesTmp" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="IotApiTest.register" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HttpClientTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lw.httpclienttest.cookies.*" />
+          <option name="PATTERN" value="com.lw.apiTest.testCases.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.lw.httpclienttest.cookies" />
-      <option name="MAIN_CLASS_NAME" value="com.lw.httpclienttest.cookies.GetCookiesTmp" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GetCookiesTmp.getWithCookies" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="HttpClientTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lw.httpclienttest.cookies.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.lw.httpclienttest.cookies" />
-      <option name="MAIN_CLASS_NAME" value="com.lw.httpclienttest.cookies.GetCookiesTmp" />
-      <option name="METHOD_NAME" value="getWithCookies" />
+      <option name="PACKAGE_NAME" value="com.lw.httpclienttest" />
+      <option name="MAIN_CLASS_NAME" value="com.lw.apiTest.testCases.IotApiTest" />
+      <option name="METHOD_NAME" value="register" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -155,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.GetCookiesTmp.getWithCookies" />
-        <item itemvalue="TestNG.GetCookiesTmp" />
-        <item itemvalue="TestNG.GetCookiesDemo.setCookieTest" />
-        <item itemvalue="TestNG.GetCookiesDemo" />
-        <item itemvalue="TestNG.F:/workspace/testNgTest/TestNgTag/src/main/resources/para.xml" />
+        <item itemvalue="TestNG.F:/workspace/testNgTest/HttpClientTest/src/main/resources/apiRun.xml" />
+        <item itemvalue="TestNG.IotApiTest.register" />
+        <item itemvalue="TestNG.F:/workspace/testNgTest/HttpClientTest/src/main/resources/tmp.xml" />
+        <item itemvalue="TestNG.F:/workspace/testNgTest/HttpClientTest/src/main/resources/testRun.xml" />
+        <item itemvalue="TestNG.GetCookiesDemo.postWithCookies" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +189,11 @@
       <workItem from="1609381576854" duration="22000" />
       <workItem from="1610072282410" duration="3939000" />
       <workItem from="1610358710057" duration="5959000" />
-      <workItem from="1610431877734" duration="15166000" />
+      <workItem from="1610431877734" duration="15194000" />
+      <workItem from="1610501394827" duration="16537000" />
+      <workItem from="1610535257936" duration="1347000" />
+      <workItem from="1610603177402" duration="14357000" />
+      <workItem from="1610697369414" duration="3178000" />
     </task>
     <task id="LOCAL-00001" summary="更新">
       <created>1607518329754</created>
@@ -294,7 +293,28 @@
       <option name="project" value="LOCAL" />
       <updated>1610453643262</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="更新">
+      <created>1610454219763</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1610454219763</updated>
+    </task>
+    <task id="LOCAL-00016" summary="更新">
+      <created>1610536613188</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1610536613188</updated>
+    </task>
+    <task id="LOCAL-00017" summary="更新">
+      <created>1610618379498</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1610618379498</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -322,10 +342,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1608118061115" />
-    <state x="409" y="164" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608716547618">
+    <state x="413" y="119" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1610522760537">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="409" y="164" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1608716547618" />
+    <state x="413" y="119" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1610522760537" />
+    <state x="409" y="164" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1610608192123">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="409" y="164" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1610608192123" />
     <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser" timestamp="1608116619605">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -334,10 +358,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="459" y="231" width="447" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1608097653403" />
-    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1610444118917">
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1610536560242">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1610444118917" />
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1610536560242" />
     <state x="363" y="4" key="#com.intellij.unscramble.UnscrambleDialog" timestamp="1608260679880">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -354,22 +378,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="498" y="61" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1607515815023" />
-    <state width="1323" height="379" key="GridCell.Tab.0.bottom" timestamp="1610453595229">
+    <state width="1323" height="450" key="GridCell.Tab.0.bottom" timestamp="1610700739940">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="379" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1610453595229" />
-    <state width="1323" height="379" key="GridCell.Tab.0.center" timestamp="1610453595228">
+    <state width="1323" height="450" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1610700739940" />
+    <state width="1323" height="450" key="GridCell.Tab.0.center" timestamp="1610700739940">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="379" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1610453595228" />
-    <state width="1323" height="379" key="GridCell.Tab.0.left" timestamp="1610453595228">
+    <state width="1323" height="450" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1610700739940" />
+    <state width="1323" height="450" key="GridCell.Tab.0.left" timestamp="1610700739939">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="379" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1610453595228" />
-    <state width="1323" height="379" key="GridCell.Tab.0.right" timestamp="1610453595228">
+    <state width="1323" height="450" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1610700739939" />
+    <state width="1323" height="450" key="GridCell.Tab.0.right" timestamp="1610700739940">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="379" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1610453595228" />
+    <state width="1323" height="450" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1610700739940" />
     <state x="184" y="0" key="SettingsEditor" timestamp="1608033157043">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -378,9 +402,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="115" y="17" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1608808174638" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1610453718866">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1610609369522">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1610453718866" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1610609369522" />
   </component>
 </project>

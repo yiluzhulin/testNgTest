@@ -269,7 +269,60 @@ public class IotApiTest {
      */
     @Test(dependsOnMethods = "checkVersionTest")
     public void reportUpgradeResultTest() {
+        //拼接URL
+        String url = this.server + "/product/" + this.productId + "/" + this.deviceId + "/ota/reportUpgradeResult";
+        //打印URL
+        System.out.println("URL：\n" + url);
 
+        //声明post、client对象
+        HttpPost post = new HttpPost(url);
+        DefaultHttpClient client = new DefaultHttpClient();
+
+        //获取sign
+        long timestamp = System.currentTimeMillis()/1000;
+        String sign = SignUtils.hexString(this.deviceId + this.productId + timestamp,this.deviceSecret);
+
+        //添加参数
+        JSONObject paras = new JSONObject();
+        paras.put("mid",this.mid);
+        paras.put("deltaID",this.deltaID);
+        paras.put("updateStatus",1);
+        paras.put("timestamp",timestamp);
+        paras.put("sign",sign);
+
+        //配置参数
+        try {
+            StringEntity entity = new StringEntity(paras.toString(),"utf-8");
+            post.setEntity(entity);
+
+            //打印参数
+            String request = paras.toString();
+            System.out.println("request:\n"+request);
+
+            //执行post，并获取测试结果
+            try {
+                HttpResponse response = client.execute(post);
+                String result = EntityUtils.toString(response.getEntity(),"utf-8");
+                //打印返回结果
+                int status = response.getStatusLine().getStatusCode();
+                if(status == 200) {
+                    System.out.println("result:\n" + result);
+                } else {
+                    System.out.println("-----升级上报接口请求失败--------");
+                }
+
+                //处理返回结果
+                JSONObject responseJson = new JSONObject(result);
+                String msg = responseJson.getString("msg");
+                Assert.assertEquals(msg,"success");
+
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+        }
     }
 
 }

@@ -30,7 +30,26 @@
         "Content-Type": "text/html;charset=gbk"
       }
     }
+  },
+  {
+    "description": "描述：带cookies的post请求",
+    "request": {
+      "uri": "/postWtihCookies",
+      "method": "post",
+      "json": {
+        "name": "daisy",
+        "age": 12
+      },
+      "cookies": {
+        "login": "true"
+      }
+    },
+    "response": {
+      "status": 200,
+      "json": {
+        "status": 1000,
+        "msg": "success"
+      }
+    }
   }
-
-
 ]
